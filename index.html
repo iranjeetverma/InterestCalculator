@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<title>Interset</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1> Simple Interest Calculation</h1>
+		<form name="simple">
+	        Amount: <input type="text" name="Amount"><br/>
+	        Interest Rate(%):<input type="text" name="Rate"><br/>
+	        months: <input type="text" name="Months"><br/>
+
+	        <input type="button" name="calc" value="Calculate" onclick="simpleInterest(simple)"><br/>
+
+	        Total Interest<input type="text" name="totalInterest" ><br/>
+	        Total Amount<input type="text" name="totalAmount"><br/>
+        </form>
+
+
+	<h1>Compound Interest Calculator</h1>
+		<form name="compound">
+			Amount:<input type="text" name="presentAmount"><br/>
+			Interest Rate(%):<input type="text" name="Rate"><br/>
+			Months:<input type="text" name="Months"><br/>
+
+			<input type="button" name="calc" value="Calculate" onclick="compoundInterest(compound)"><br/>
+
+			Total Interest:<input type="text" name="totalInterest"><br/>
+			Total Amount:<input type="text" name="futureAmount"><br/>
+		</form>
+</body>
+</html>
